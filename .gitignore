@@ -4,6 +4,9 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile ~/.gitignore_global
 
+.DS_Store
+.project
+
 # Ignore bundler config
 /.bundle
 
@@ -11,8 +14,5 @@
 /db/*.sqlite3
 
 # Ignore all logfiles and tempfiles.
-/log/*.log
-<<<<<<< HEAD
-/tmp
-=======
->>>>>>> 8d339e38c473bf4f9f047c551400ab4875fdfb61
+/log/*
+/tmp/*
